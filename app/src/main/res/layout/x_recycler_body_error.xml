@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="10dp">
+    
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="20dp"
+        android:text="网络加载失败，请点击重新加载"
+        android:textColor="@color/text_color_second"
+        android:textSize="12sp"/>
+    
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="重新加载"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
